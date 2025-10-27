@@ -9,7 +9,7 @@
     <!--css goes here-->
     <link rel="stylesheet" href="css/styles.css">
     <!--javascript goes here ORDER MATTERS-->
-    <script src="https://code.jquery.com/jquery/3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="scripts/script.js"></script>
 </head>
 <body>
@@ -32,11 +32,22 @@
     </nav>
 
     <!--floating halloween icons-->
-    <div class="floating-icons"></div>
+    <div class="floating-icons">
+        <img src="images/nav-bat.png" alt="Floating bat icon" class="float-icon bat">
+        <img src="images/stars.png" alt="Floating Star Icon" class="float-icon stars">
+    </div>
 
     <!--Hero section-->
-    <section>
-
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="spooky-title">Welcome to the spookiest store</h2>
+            <p class="hero-text">Get ready for a freighting fun Halloween with our amazing collection of spooky items!</p>
+            <button class="cta-button" id="heroButton">Explore Now!</button>
+        </div>
+        <div class="hero-images">
+            <img src="images/home-pumpkin.png" alt="Pumpkin" class="hero-img">
+            <img src="images/home-tree1.png" alt="Spooky Tree" class="spooky-tree">
+        </div>
     </section>
 
     <!--Main content--> 
